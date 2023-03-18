@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;0,700;1,700&family=Space+Grotesk:wght@500&display=swap');
+
+
+:root{
+    --mobile-max-width: 375px;
+    --desktop-max-width: 1440px;   
+    --header-height: 55px;
+
+    --clr-neutral-white: hsl(0, 0%, 98%);
+    --clr-neutral-gray: hsl(0, 0%, 41%);
+    --clr-neutral-black: hsl(0, 0%, 8%);
+
+
+    --font-size-base: 18px;
+    --font-family-base: Epilogue;
+    --font-weight-bold: 500;
+    --font-weight-extra-bold:  700;
+    --clr-mirror: rgba(0, 0, 0, 0.25);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-bold);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 100vw;
+    font-family: var(--font-family-base);
+}
+

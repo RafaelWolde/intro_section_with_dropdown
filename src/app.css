@@ -1,0 +1,17 @@
+#app{
+    /* max-width: var(--desktop-max-width); */
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-top: var(--header-height);
+}
+
+.button{
+    color: var(--clr-neutral-gray);
+    padding: .6rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:active{
+    color: var(--clr-neutral-black);
+}
